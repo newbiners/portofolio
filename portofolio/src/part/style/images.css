@@ -1,0 +1,28 @@
+.imagesTrans {
+    transform: translate(3.5rem, 1rem);
+    height: 80vh;
+}
+.images  {
+    grid-row : 1/-1;
+    grid-column: 2/-1;
+}
+.js {
+    position: absolute;
+    top: 7rem;
+    transform:translate(-2rem, 0rem);  
+    height: 7rem;
+    box-shadow: 5px 7px  10px 1px rgb(0%, 0%, 0%, 20%);
+
+}
+.react {
+    position: absolute;
+    top: 7rem;
+    transform:translate(16rem, 6rem);  
+    height: 12rem;
+}
+.tailwind {
+    position: absolute;
+    top: 7rem;
+    transform:translate(-2rem, 15rem);  
+    height: 7rem;
+}

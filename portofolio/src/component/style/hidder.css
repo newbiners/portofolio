@@ -1,0 +1,6 @@
+.grid-hidder {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: 55fr 45fr;
+        grid-template-rows: 10vh 80vh;
+}
