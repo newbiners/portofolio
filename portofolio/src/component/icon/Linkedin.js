@@ -3,7 +3,8 @@ import React from "react";
 function Linkedin() {
   const style = {
     filter: {
-      filter: 'invert(100%)'
+      filter: 'invert(100%)',
+      opacity: '50%'
     }
   }
     return (

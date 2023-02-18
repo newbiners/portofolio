@@ -6,23 +6,57 @@
     grid-row : 1/-1;
     grid-column: 2/-1;
 }
-.js {
+
+.hiden1 {
     position: absolute;
-    top: 7rem;
-    transform:translate(-2rem, 0rem);  
+    top: 16rem;
+    left: 0rem;
+    transform:translate(9rem, 2rem);  
     height: 7rem;
+    transition: all 1s ease-in-out;
+    /* box-shadow: 5px 7px  10px 1px rgb(0%, 0%, 0%, 20%); */
+}
+.hiden-2 {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform:translate(9rem, 7rem);  
+    height: 7rem;
+    transition: all 1s ease-in-out;
+    /* box-shadow: 5px 7px  10px 1px rgb(0%, 0%, 0%, 20%); */
+}
+.hiden-3 {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform:translate(7rem, 7rem);  
+    height: 7rem;
+    transition: all 1s ease-in-out;
+    /* box-shadow: 5px 7px  10px 1px rgb(0%, 0%, 0%, 20%); */
+}
+
+.hiden{
+    position: absolute;
+    top: -15rem;
+    left: -10rem;
+    /* transform:translate(0rem, 10rem);   */
+    transform:translate(9rem, 23rem);  
+    height: 7rem;
+    transition: all 1s ease-in-out;
     box-shadow: 5px 7px  10px 1px rgb(0%, 0%, 0%, 20%);
 
-}
+} 
 .react {
     position: absolute;
     top: 7rem;
     transform:translate(16rem, 6rem);  
     height: 12rem;
+    transition: all 1s ease-in-out;
 }
 .tailwind {
     position: absolute;
     top: 7rem;
     transform:translate(-2rem, 15rem);  
     height: 7rem;
+    transition: all 1s ease-in-out;
 }

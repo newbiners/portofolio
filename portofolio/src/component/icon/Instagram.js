@@ -4,7 +4,7 @@ function Instagram() {
     const style = {
         filter: {
           filter: 'invert(100%)',
-            // opacity: '0.5'
+            opacity: '50%'
         }
     }
   return (
