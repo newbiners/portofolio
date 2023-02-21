@@ -9,10 +9,9 @@ import { useState } from "react";
 
 
 const Images = () => {
-    const [show , setShow] = useState(false);
-    let hiden = document.querySelector('hiden')
+    const [show , setShow] = useState(true);
     const setFixed = () => {
-        if(window.scrollY >= 0 && window.scrollY <= 120) {
+        if(window.scrollY >= 0 && window.scrollY <= 520) {
             setShow(true)
 
         }else{
@@ -22,13 +21,13 @@ const Images = () => {
     window.addEventListener("scroll", setFixed);
 
     return (
-        <div className="images my-auto py-5">
+        <div className="images my-auto py-2 mx-auto justify-self-center md:justify-self-center md:px-0 sm:justify-self-end sm:px-24 xs:px-27 ">
             <div className="imagesTrans">
-                <div style={{background: '#038C5A', height: '32rem', width: '25rem', borderRadius: '50rem 50rem 0rem 0rem'}}></div>
-                    <img src={js} className={show ? 'hiden': 'hiden1'}/>
-                    <img src={react} className={show ? 'react':"hiden-2"}/>
-                    <img src={tailwind} className={show ? 'tailwind':'hiden-3'}/>
-                    <img src={images} style={{height: '28rem', position: "absolut", top: '-1rem',transform: "translate(-2rem, -28rem)"}}/>
+                <div className="bg-height"></div>
+                    <img src={js} className={show ? 'hiden': 'hiden1'} alt="js"/>
+                    <img src={react} className={show ? 'react':"hiden-2"} alt="react"/>
+                    <img src={tailwind} className={show ? 'tailwind':'hiden-3'} alt="tailwind"/>
+                    <img src={images} className="profil" alt="profil"/>
                     
             </div>
         </div>

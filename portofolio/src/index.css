@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .px-27 {
+        padding-left: 6rem;
+    }
+}

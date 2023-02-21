@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -5,33 +9,10 @@ html {
 .button {
     padding: 5px 7px; 
 }
-.pisi {
-    position: fixed;
-    z-index: 999;
-    left: -4rem;
-    background-color: transparent;
-    padding: 0.5rem 9rem;
-    width: 110%;
-    transition: all 0.5s;
-    /* margin: 1rem 1.6rem; */
+.margin {
+    background-color: rgb(255, 47, 0);
 }
 
-.posisi {
-    position: fixed;
-    z-index: 999;
-    background-color: rgb(22 163 74);
-    box-shadow: 12px 0px 10px 10px rgba(25, 124, 66, 0.474);
-    /* width: 90rem; */
-    /* margin: 0 auto; */
-    /* left: -2rem; */
-    /* top: 0rem; */
-    /* padding: 0.5rem 7rem; */
-    transition: all 0.5s;
-}
-
-.posisi .button:hover {
-    color: #08090E;
-}
-.posisi .Dev {
-    color: #08090E;
+@media (min-width: 1380px) {
+   
 }

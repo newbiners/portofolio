@@ -14,7 +14,7 @@ function Youtube() {
       height="682.667"
       version="1"
       viewBox="0 0 512 512"
-      className="h-11 w-11"
+      className="sm:h-11 sm:w-11 xs:h-6 xs:w-6"
       style={style.filter}
     >
       <path

@@ -1,62 +1,225 @@
 .imagesTrans {
     transform: translate(3.5rem, 1rem);
-    height: 80vh;
+    /* height: 80vh; */
 }
 .images  {
     grid-row : 1/-1;
     grid-column: 2/-1;
 }
+.bg-height {
+    background: #038C5A;
+    height:32rem;
+    width: 25rem; 
+    border-radius: 50rem 50rem 0rem 0rem; 
+}
 
 .hiden1 {
     position: absolute;
-    top: 16rem;
-    left: 0rem;
-    transform:translate(9rem, 2rem);  
+    top: 18rem;
+    left: 8rem;
     height: 7rem;
     transition: all 1s ease-in-out;
-    /* box-shadow: 5px 7px  10px 1px rgb(0%, 0%, 0%, 20%); */
 }
 .hiden-2 {
     position: absolute;
     top: 50%;
-    left: 0%;
-    transform:translate(9rem, 7rem);  
+    left: 20%;
     height: 7rem;
     transition: all 1s ease-in-out;
-    /* box-shadow: 5px 7px  10px 1px rgb(0%, 0%, 0%, 20%); */
 }
 .hiden-3 {
     position: absolute;
-    top: 50%;
-    left: 0%;
-    transform:translate(7rem, 7rem);  
-    height: 7rem;
+    top: 70%;
+    left: 23%;
+    height: 6rem;
     transition: all 1s ease-in-out;
-    /* box-shadow: 5px 7px  10px 1px rgb(0%, 0%, 0%, 20%); */
 }
 
 .hiden{
     position: absolute;
-    top: -15rem;
-    left: -10rem;
-    /* transform:translate(0rem, 10rem);   */
-    transform:translate(9rem, 23rem);  
+    top: 7rem;
+    left: -1rem;
     height: 7rem;
     transition: all 1s ease-in-out;
-    box-shadow: 5px 7px  10px 1px rgb(0%, 0%, 0%, 20%);
-
-} 
+    box-shadow: 5px 7px  10px 1px rgb(0%, 0%, 0%, 20%); 
+}   
 .react {
     position: absolute;
-    top: 7rem;
-    transform:translate(16rem, 6rem);  
+    top: 15rem;
+    left: 16rem;
     height: 12rem;
     transition: all 1s ease-in-out;
 }
 .tailwind {
     position: absolute;
-    top: 7rem;
-    transform:translate(-2rem, 15rem);  
+    top: 20rem;
+    left: -5rem;
     height: 7rem;
     transition: all 1s ease-in-out;
+}
+.bg-height {
+    background: #038C5A;
+    height:32rem;
+    width: 25rem; 
+    border-radius: 50rem 50rem 0rem 0rem; 
+}
+.profil {
+    max-height: 28rem; 
+    position: absolute; 
+    top: 32rem;
+    transform: translate(-2rem, -28rem);
+}
+@media (max-width: 1536px) {
+    .bg-height {
+        background: #121483;
+    }
+    .imagesTrans {
+        transform: translate(3.5rem, 1rem);
+        /* height: 80vh; */
+    }
+}
+@media (max-width: 1024px) {
+    .bg-height {
+        background: #8c3c03;
+        height:27rem;
+        width: 20rem; 
+        border-radius: 50rem 50rem 0rem 0rem; 
+    }
+    .hiden1 {
+        top: 17rem;
+        left: 7rem;
+        height: 4rem;
+    }
+    .hiden{
+        top: 7rem;
+        left: -1rem;
+        height: 6rem;
+    }  
+    .hiden-2 {
+        top: 60%;
+        left: 20%;
+        height: 4rem;
+    }
+    .react {
+        top: 15rem;
+        left: 13rem;
+        height: 9rem;
+    }
+    .hiden-3 {
+        top: 60%;
+        left: 21%;
+        height: 4rem;
+    }
+    .tailwind {
+        top: 18rem;
+        left: -4rem;
+        height: 6rem;
+    }
+    .profil {
+        max-height: 23rem; 
+        top: 32rem;
+        transform: translate(-2rem, -28rem);
+    }
+    .imagesTrans {
+        transform: translate(3.5rem, 1rem);
+        /* height: 65vh; */
+    }
+}
+@media (max-width: 840px) {
+    .bg-height {
+        background: #14a9e0;
+        height:20rem;
+        width: 15rem;  
+    }
+    .hiden1 {
+        top: 16rem;
+        left: 7rem;
+        height: 2.2rem;
+    }
+    .hiden{
+        top: 5rem;
+        left: -1rem;
+        height: 4.5rem;
+    }  
+    .hiden-2 {
+        top: 50%;
+        left: 20%;
+        height: 4rem;
+    }
+    .react {
+        top: 11rem;
+        left: 9.6rem;
+        height: 7rem;
+    }
+    .hiden-3 {
+        top: 60%;
+        left: 21%;
+        height: 3rem;
+    }
+    .tailwind {
+        top: 14rem;
+        left: -3rem;
+        height: 4rem;
+    }
+    .profil {
+        max-height: 16rem; 
+        top: 32rem;
+        transform: translate(-1rem, -28rem);
+    }
+    .imagesTrans {
+        transform: translate(3.5rem, 1rem);
+        /* height: 50vh; */
+    }
+}
+@media (max-width: 730px) {
+    .bg-height {
+        background: #e01414;
+        height:24rem;
+        width: 18rem;  
+    }
+    .hiden1 {
+        top: 17rem;
+        left: 7rem;
+        height: 2.2rem;
+    }
+    .hiden{
+        top: 5rem;
+        left: -1rem;
+        height: 5.5rem;
+    }  
+    .hiden-2 {
+        top: 57%;
+        left: 20%;
+        height: 4rem;
+    }
+    .react {
+        top: 11rem;
+        left: 11.5rem;
+        height: 9rem;
+    }
+    .hiden-3 {
+        top: 60%;
+        left: 21%;
+        height: 3rem;
+    }
+    .tailwind {
+        top: 16rem;
+        left: -3rem;
+        height: 5rem;
+    }
+    .profil {
+        max-height: 20rem; 
+        top: 32rem;
+        transform: translate(-1.5rem, -28rem);
+    }
+    .imagesTrans {
+        transform: translate(3.5rem, 1rem);
+        /* height: 50vh; */
+    }
+}
+
+@media (max-width: 500px) {
+    .bg-height,.profil,.hiden1,.hiden-2,.hiden-3,.hiden ,.react ,.tailwind {
+        display: none;  
+    }
 }
