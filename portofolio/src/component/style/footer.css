@@ -1,20 +1,14 @@
 .rows {
-    /* grid-template-rows: 4rem 5rem; */
     grid-template-rows: 1fr;
-    /* background-color: aqua; */
 }
 
 @media (max-width: 1536px) {
     .rows {
-        /* grid-template-rows: 4rem 5rem; */
         grid-template-rows: 1fr;
-        /* background-color: aqua; */
     }
 }
 @media (max-width: 640px) {
     .rows {
         grid-template-rows: 4rem 5rem;
-        /* grid-template-rows: 1fr; */
-        /* background-color: aqua; */
     }
 }

@@ -1,6 +1,5 @@
 .imagesTrans {
     transform: translate(3.5rem, 1rem);
-    /* height: 80vh; */
 }
 .images  {
     grid-row : 1/-1;
@@ -70,17 +69,12 @@
     transform: translate(-2rem, -28rem);
 }
 @media (max-width: 1536px) {
-    .bg-height {
-        background: #121483;
-    }
     .imagesTrans {
         transform: translate(3.5rem, 1rem);
-        /* height: 80vh; */
     }
 }
 @media (max-width: 1024px) {
     .bg-height {
-        background: #8c3c03;
         height:27rem;
         width: 20rem; 
         border-radius: 50rem 50rem 0rem 0rem; 
@@ -122,12 +116,10 @@
     }
     .imagesTrans {
         transform: translate(3.5rem, 1rem);
-        /* height: 65vh; */
     }
 }
 @media (max-width: 840px) {
     .bg-height {
-        background: #14a9e0;
         height:20rem;
         width: 15rem;  
     }
@@ -168,12 +160,10 @@
     }
     .imagesTrans {
         transform: translate(3.5rem, 1rem);
-        /* height: 50vh; */
     }
 }
 @media (max-width: 730px) {
     .bg-height {
-        background: #e01414;
         height:24rem;
         width: 18rem;  
     }
@@ -214,7 +204,6 @@
     }
     .imagesTrans {
         transform: translate(3.5rem, 1rem);
-        /* height: 50vh; */
     }
 }
 

@@ -1,0 +1,72 @@
+.name {
+    animation: slideName 3s ease forwards;
+}
+.jobs {
+    animation: slideJobs 3s ease forwards;
+}
+.description {
+    animation: slideDescription 3s ease forwards;
+}
+@keyframes slideName {
+    from {
+        opacity: 0;
+        transform: translateX(200px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes slideJobs {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes slideDescription {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.contect {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: block;
+    opacity: 1;
+    right: 30rem;
+    z-index: 99;
+    animation: contAnimet 0.5s ;   
+}
+@keyframes contAnimet {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.contect .bg-blur {
+    padding: 70rem;
+    backdrop-filter: blur(10px);
+    z-index: -1;
+    position: absolute;
+    left: -50rem;
+    top: -50px;
+    animation: contAnimet 1.5s ; 
+}
+.contect-dont {
+    opacity: 0;
+    display: none; 
+}

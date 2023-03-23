@@ -1,8 +1,7 @@
 import React from "react";
-// import Hiddersatu from "../part/hidder";
 import Images from "../part/images";
 import Texthero from "../part/texthero";
-///////
+
 import './style/hidder.css'
 
 const Hidderdua = () => {
@@ -10,7 +9,6 @@ const Hidderdua = () => {
         <div className="overflow-hidden ">
             <div  style={{background: '#08090E',fontFamily: 'poppins', letterSpacing: '2px'}} className="py-10">
                 <div className="text-gray-100 px-10 grid grid-cols-2 gap-4  relative mx-auto md:grid-cols-2 xs:grid-cols-1" style={{maxWidth:'80rem'}}>
-                    {/* <Hiddersatu/> */}
                     <div className="justify-self-end">
                     <Texthero/>
                     </div>

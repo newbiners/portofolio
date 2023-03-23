@@ -1,9 +1,0 @@
-.js {
-    position: absolute;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: 60fr 40fr;
-    grid-template-rows: 10fr 90fr;
-}

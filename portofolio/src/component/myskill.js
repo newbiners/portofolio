@@ -2,7 +2,6 @@ import Ilustrator from "../images/illustrator.png";
 import tailwind from "../images/tailwind.png";
 import react from "../images/rect.png";
 import Js from "../images/js.png"
-import style from "./style/myskill.css"
 const Myskill = () => {
     return (
         <section >

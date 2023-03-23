@@ -4,7 +4,6 @@ import Myskill from "../component/myskill";
 import Footersatu from "../component/footer";
 import Copyright from "../component/copyright";
 import Hiddersatu from "../part/hidder";
-
 import "./style/layerpremier.css"
 
 const Layerpremier = () => {
